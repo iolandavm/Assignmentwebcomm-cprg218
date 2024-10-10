@@ -1,0 +1,43 @@
+
+header {
+    background-color: #120323;
+    text-align: center;
+    color: #fff;
+  }
+  footer {
+    background-color: #d9043d;
+    color: #fff;
+    text-align: center;
+  }
+  .puffin {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  aside {
+    background-color: #97bf04;
+  }
+  .puffin {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  @media (min-width: 768px) {
+    .header-logo {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .puffin {
+      max-width: 300px;
+    }
+  
+    .puffin-container {
+      display: flex;
+      align-items: center;
+    }
+  }
+    
+      
